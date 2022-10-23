@@ -1,6 +1,23 @@
 .main {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0;
+  overflow: hidden;
+}
+.main-container {
+  padding: 1rem 2rem 3rem;
+  overflow-y: scroll;
+  height: 100%;
+}
+.main-container::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  border-radius: 20rem;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background-color: var(--white_transparent);
 }
 
 .cards {
