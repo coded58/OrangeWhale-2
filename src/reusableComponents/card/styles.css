@@ -1,0 +1,19 @@
+.card {
+  background: var(--lg);
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  width: 50%;
+  flex: 1 1 20rem;
+}
+
+.card > p {
+  text-transform: uppercase;
+  color: var(--white_transparent);
+  font-size: 1.4rem;
+  padding-bottom: 0.7rem;
+}
+
+.card > span {
+  font-size: 1.5rem;
+  color: var(--bg);
+}

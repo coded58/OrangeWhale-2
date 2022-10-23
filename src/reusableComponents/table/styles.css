@@ -1,0 +1,38 @@
+.table-container {
+  background-color: var(--white);
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  overflow-x: hidden;
+}
+
+.table > .icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.table > .table-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.table-content > p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+.table-content > span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--black_alt);
+}
