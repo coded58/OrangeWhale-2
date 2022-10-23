@@ -4,17 +4,11 @@ import { GiHamburgerMenu as Bar } from "react-icons/gi";
 import { useState } from "react";
 
 const NavBar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
-
-  const handleOpenMenu = () => {
-    setOpenMenu(!openMenu);
-    console.log(setOpenMenu());
-  };
-
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav>
       <div className="nav">
-        <Bar className="nav-icon" onClick={handleOpenMenu} />
+        <Bar className="nav-icon" onClick={() => setShowMenu(!showMenu)} />
         <Profile className="nav-icon" />
       </div>
     </nav>

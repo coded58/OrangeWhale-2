@@ -27,6 +27,7 @@
   outline: none;
   list-style: none;
   text-decoration: none;
+  user-select: none;
 }
 
 html {
@@ -77,11 +78,21 @@ body {
 .right {
   flex: 2;
   background-color: var(--white);
+  position: relative;
 }
 
 .main {
   flex: 5;
   background-color: var(--bg);
+}
+
+.left-arrow {
+  color: var(--black_alt);
+  font-size: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  right: -4rem;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -100,10 +111,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .left {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -100%;
   }
+  .left-arrow {
+    right: -50rem;
+  }
+
   .main {
     flex: 1;
   }
