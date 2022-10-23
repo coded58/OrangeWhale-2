@@ -1,4 +1,5 @@
-import Left from "./Left";
-import Main from "./Main";
+import Left from "./left/Left";
+import Main from "./main/Main";
+import Right from "./right/Right";
 
-export { Left, Main };
+export { Left, Main, Right };
