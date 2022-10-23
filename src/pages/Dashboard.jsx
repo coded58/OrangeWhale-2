@@ -11,13 +11,15 @@ const Dashboard = () => {
           <Card title="views" digits="7,124,568" />
           <Card title="followers" digits="91,344" />
           <Card title="likes" digits="534,931" />
+          <Card title="comments" digits="300" />
+          <Card title="shares" digits="2,419" />
         </div>
       </div>
       <div className="main-content">
         <span className="title">Statistics</span>
         <div className="cards">
-          <Target title="monthly target" achieved="25% achieved" range="25" />
-          <Target title="weekly target" achieved="10% achieved" range="10" />
+          <Target title="monthly target" achieved="0% achieved" range="0" />
+          <Target title="weekly target" achieved="0 achieved" range="0" />
         </div>
       </div>
       <div className="main-content">
