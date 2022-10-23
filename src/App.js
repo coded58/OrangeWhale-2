@@ -1,9 +1,10 @@
 import "./App.css";
+import Left from "./components/Left";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>James</h1>
+      <Left />
     </div>
   );
 };
