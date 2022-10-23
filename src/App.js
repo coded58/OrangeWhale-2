@@ -1,10 +1,11 @@
 import "./App.css";
-import Left from "./components/Left";
+import { Left, Main } from "./components";
 
 const App = () => {
   return (
     <div className="App">
       <Left />
+      <Main />
     </div>
   );
 };
