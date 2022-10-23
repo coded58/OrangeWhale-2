@@ -11,13 +11,15 @@ import Scheduled from "../../pages/Scheduled";
 const Main = () => {
   return (
     <div className="main">
-      <Dashboard />
-      <Activity />
-      <Settings />
-      <Post />
-      <Published />
-      <Scheduled />
-      <Drafts />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/activity" element={<Activity />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/post" element={<Post />} />
+        <Route path="/published" element={<Published />} />
+        <Route path="/scheduled" element={<Scheduled />} />
+        <Route path="/drafts" element={<Drafts />} />
+      </Routes>
     </div>
   );
 };
