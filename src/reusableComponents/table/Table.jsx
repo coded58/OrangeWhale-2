@@ -1,9 +1,13 @@
-import React from "react";
+import "./styles.css";
 
-const Table = () => {
+const Table = ({ title, content, icon }) => {
   return (
-    <div>
-      <h1>Table</h1>
+    <div className="table">
+      <div className="icon">{icon}</div>
+      <div className="table-content">
+        <p>{title}</p>
+        <span>{content}</span>
+      </div>
     </div>
   );
 };
