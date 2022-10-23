@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 .main-container {
-  padding: 1rem 2rem 3rem;
+  padding: 2rem 3rem;
   overflow-y: scroll;
   height: 100%;
 }
@@ -17,7 +17,7 @@
 }
 
 .main-container::-webkit-scrollbar-track {
-  background-color: var(--white_transparent);
+  background-color: transparent;
 }
 
 .cards {
