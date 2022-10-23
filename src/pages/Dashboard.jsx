@@ -16,7 +16,8 @@ const Dashboard = () => {
       <div className="main-content">
         <span className="title">Statistics</span>
         <div className="cards">
-          <Target />
+          <Target title="monthly target" achieved="25% achieved" range="25" />
+          <Target title="weekly target" achieved="10% achieved" range="10" />
         </div>
       </div>
       <div className="main-content">

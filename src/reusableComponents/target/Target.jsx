@@ -1,9 +1,16 @@
-import React from "react";
+import "./styles.css";
 
-const Target = () => {
+const Target = ({ title, achieved, range }) => {
   return (
-    <div>
-      <h1>Target</h1>
+    <div className="target-card">
+      <div className="left-target">
+        <p>{title}</p>
+        <span>{achieved}</span>
+      </div>
+      <div className="right-target">
+        <div className="range"></div>
+        <p>{range}%</p>
+      </div>
     </div>
   );
 };
