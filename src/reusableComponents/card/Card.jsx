@@ -1,9 +1,10 @@
-import React from "react";
+import "./styles.css";
 
-const Card = () => {
+const Card = ({ title, digits }) => {
   return (
-    <div>
-      <h1>Card</h1>
+    <div className="card">
+      <p>{title}</p>
+      <span>{digits}</span>
     </div>
   );
 };
