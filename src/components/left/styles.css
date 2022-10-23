@@ -18,8 +18,8 @@
 }
 .header-details > span {
   font-size: 1.2rem;
-  font-weight: normal;
-  color: var(--black_alt);
+  font-weight: 400;
+  color: var(--black);
 }
 
 .link {
@@ -59,6 +59,13 @@
   font-weight: 700;
   color: var(--black);
   letter-spacing: 0.08rem;
+}
+.link:hover > .icon {
+  margin-left: 0.3rem;
+  transition: 0.3s linear;
+}
+.link:hover > .icon path {
+  stroke: var(--black);
 }
 
 .divider {

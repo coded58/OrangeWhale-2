@@ -9,11 +9,13 @@
 .card > p {
   text-transform: uppercase;
   color: var(--white_transparent);
+  font-weight: 700;
   font-size: 1.4rem;
   padding-bottom: 0.7rem;
 }
 
 .card > span {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
   color: var(--bg);
 }

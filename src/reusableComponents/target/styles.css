@@ -1,6 +1,7 @@
 .target-card {
   background: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   padding: 1rem 2rem;
   border-radius: 5px;
   width: 50%;
@@ -21,15 +22,14 @@
 }
 
 .left-target > p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--black);
   text-transform: capitalize;
 }
 .left-target > span {
   font-weight: 700;
-  font-size: 1.1rem;
-  font-weight: normal;
+  font-size: 1.2rem;
   color: var(--orange);
 }
 
